@@ -11,35 +11,43 @@
 <body>
     <header>
         <div class="container">
-            <h1>[あなたの名前]</h1>
+             <h1>[あなたの名前]</h1>
             <nav>
-                <a href="index.html">トップに戻る</a>
+                 <a href="index.html" data-lang-ja="トップに戻る" data-lang-en="Back to Top">トップに戻る</a>
             </nav>
+            <div class="language-select">
+              <select id="language-switcher">
+                  <option value="ja">日本語</option>
+                  <option value="en">English</option>
+                </select>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="section">
             <div class="container">
-                <h2>Project 1: [プロジェクトのタイトル]</h2>
+                <h2 data-lang-ja="Project 1: [プロジェクトのタイトル]" data-lang-en="Project 1: [Project Title]">Project 1: [プロジェクトのタイトル]</h2>
                 <img src="project1.png" alt="Project 1 Image" class="project-image">
-                <h3>プロジェクト概要</h3>
-                <p>このプロジェクトでは、[プロジェクトの概要を記述します]。データ分析の目的、使用した技術、得られた結果などを具体的に説明します。</p>
-                <h3>使用技術</h3>
+                <h3 data-lang-ja="プロジェクト概要" data-lang-en="Project Overview">プロジェクト概要</h3>
+                <p data-lang-ja="このプロジェクトでは、[プロジェクトの概要を記述します]。データ分析の目的、使用した技術、得られた結果などを具体的に説明します。"
+                   data-lang-en="In this project, [Describe the project overview]. Specifically describe the purpose of data analysis, the technologies used, and the results obtained.">このプロジェクトでは、[プロジェクトの概要を記述します]。データ分析の目的、使用した技術、得られた結果などを具体的に説明します。</p>
+                <h3 data-lang-ja="使用技術" data-lang-en="Technologies Used">使用技術</h3>
                 <ul class="skill-list">
-                    <li>Python</li>
-                    <li>Pandas</li>
-                    <li>Scikit-learn</li>
+                     <li data-lang-ja="Python" data-lang-en="Python">Python</li>
+                    <li data-lang-ja="Pandas" data-lang-en="Pandas">Pandas</li>
+                    <li data-lang-ja="Scikit-learn" data-lang-en="Scikit-learn">Scikit-learn</li>
                     <!-- その他の使用技術 -->
                 </ul>
-                <h3>分析結果</h3>
+                <h3 data-lang-ja="分析結果" data-lang-en="Analysis Results">分析結果</h3>
                  <p>
                      \(
                          \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
                      \)
                  </p>
-                <p>[分析結果の詳細を記述します。グラフや図表などを挿入しても良いでしょう。]</p>
-                <a href="index.html" class="back-link">トップページに戻る</a>
+                <p data-lang-ja="[分析結果の詳細を記述します。グラフや図表などを挿入しても良いでしょう。]"
+                    data-lang-en="[Describe the details of the analysis results. You can insert graphs or charts, etc.].">[分析結果の詳細を記述します。グラフや図表などを挿入しても良いでしょう。]</p>
+                <a href="index.html" class="back-link" data-lang-ja="トップページに戻る" data-lang-en="Back to Top">トップページに戻る</a>
             </div>
         </section>
     </main>
@@ -49,5 +57,6 @@
             <p>&copy; 2024 [あなたの名前]. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
