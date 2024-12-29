@@ -36,6 +36,18 @@ header nav a {
 header nav a:hover {
     color: #ccc;
 }
+header .language-select {
+    margin-left: 20px;
+}
+
+header .language-select select {
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 main {
     padding-bottom: 3em;
@@ -143,6 +155,10 @@ footer {
     }
      header nav a {
         margin: 5px 10px;
+    }
+    header .language-select{
+      margin-left: 0;
+        margin-top:10px;
     }
     .portfolio-grid {
         grid-template-columns: 1fr;
