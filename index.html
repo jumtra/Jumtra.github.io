@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="container">
-             <h1 data-lang-ja="内田 純平" data-lang-en="Jumpei Uchida">内田 純平</h1>
+            <h1>[あなたの名前]</h1>
             <nav>
                 <a href="#about" data-lang-ja="経歴" data-lang-en="About">経歴</a>
                 <a href="#skills" data-lang-ja="スキル" data-lang-en="Skills">スキル</a>
@@ -19,9 +19,9 @@
                 <a href="#contact" data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</a>
             </nav>
             <div class="language-select">
-              <select id="language-switcher">
-                  <option value="ja">日本語</option>
-                  <option value="en">English</option>
+                <select id="language-switcher">
+                    <option value="ja">日本語</option>
+                    <option value="en">English</option>
                 </select>
             </div>
         </div>
@@ -30,11 +30,45 @@
     <main>
         <section id="about" class="section">
             <div class="container">
-                 <h2 data-lang-ja="経歴" data-lang-en="About">経歴</h2>
+                <h2 data-lang-ja="経歴" data-lang-en="About">経歴</h2>
                 <p data-lang-ja="データサイエンスに情熱を燃やす[あなたの名前]です。統計学、機械学習、データ可視化を駆使し、ビジネス課題の解決に取り組んでいます。" 
                    data-lang-en="I'm [Your Name], a passionate data scientist. I use statistics, machine learning, and data visualization to solve business challenges.">データサイエンスに情熱を燃やす[あなたの名前]です。統計学、機械学習、データ可視化を駆使し、ビジネス課題の解決に取り組んでいます。</p>
-                <p data-lang-ja="これまでの職務経験では、[具体的な職務経験を記述]などのプロジェクトに携わってきました。"
-                    data-lang-en="In my previous work experience, I have been involved in projects such as [Describe your specific work experience].">これまでの職務経験では、[具体的な職務経験を記述]などのプロジェクトに携わってきました。</p>
+                <div class="about-summary">
+                    <h3 data-lang-ja="経歴サマリー" data-lang-en="Career Summary">経歴サマリー</h3>
+                    <p data-lang-ja="[データサイエンティストとしてのスキルと経験のサマリーを記述します]"
+                       data-lang-en="[Describe a summary of your skills and experience as a data scientist]">
+                        [データサイエンティストとしてのスキルと経験のサマリーを記述します]
+                    </p>
+                </div>
+                <div class="career-history">
+                    <h3 data-lang-ja="職務経歴" data-lang-en="Work Experience">職務経歴</h3>
+                    <ul class="career-list">
+                       
+                        <li class="career-item">
+                            <h4 data-lang-ja="[会社名1] - [役職1]" data-lang-en="[Company Name 1] - [Position 1]">[会社名1] - [役職1]</h4>
+                            <p class="career-period" data-lang-ja="[期間1]" data-lang-en="[Period 1]">[期間1]</p>
+                            <p data-lang-ja="[職務内容1の簡単な説明]" data-lang-en="[Brief description of job content 1]">[職務内容1の簡単な説明]</p>
+                            <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
+                            <div class="career-details">
+                             <p data-lang-ja="[職務内容1の詳細を記述します]"
+                                 data-lang-en="[Describe the details of job content 1]">
+                                [職務内容1の詳細を記述します]</p>
+                            </div>
+                        </li>
+                          <li class="career-item">
+                            <h4 data-lang-ja="[会社名2] - [役職2]" data-lang-en="[Company Name 2] - [Position 2]">[会社名2] - [役職2]</h4>
+                            <p class="career-period" data-lang-ja="[期間2]" data-lang-en="[Period 2]">[期間2]</p>
+                            <p data-lang-ja="[職務内容2の簡単な説明]" data-lang-en="[Brief description of job content 2]">[職務内容2の簡単な説明]</p>
+                            <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
+                            <div class="career-details">
+                            <p data-lang-ja="[職務内容2の詳細を記述します]"
+                                data-lang-en="[Describe the details of job content 2]">
+                                [職務内容2の詳細を記述します]</p>
+                            </div>
+                        </li>
+                       
+                    </ul>
+                </div>
             </div>
         </section>
         
@@ -42,7 +76,7 @@
             <div class="container">
                 <h2 data-lang-ja="スキル" data-lang-en="Skills">スキル</h2>
                 <ul class="skill-list">
-                    <li data-lang-ja="Python" data-lang-en="Python">Python</li>
+                     <li data-lang-ja="Python" data-lang-en="Python">Python</li>
                     <li data-lang-ja="R" data-lang-en="R">R</li>
                     <li data-lang-ja="SQL" data-lang-en="SQL">SQL</li>
                     <li data-lang-ja="Pandas" data-lang-en="Pandas">Pandas</li>
@@ -54,42 +88,41 @@
                     <li data-lang-ja="統計分析" data-lang-en="Statistical Analysis">統計分析</li>
                     <li data-lang-ja="機械学習" data-lang-en="Machine Learning">機械学習</li>
                     <li data-lang-ja="深層学習" data-lang-en="Deep Learning">深層学習</li>
-                     <!-- その他のスキル -->
                 </ul>
             </div>
         </section>
 
         <section id="portfolio" class="section">
             <div class="container">
-                 <h2 data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</h2>
+                <h2 data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</h2>
                 <div class="portfolio-grid">
-                  <div class="portfolio-item">
-                    <img src="project1.png" alt="Project 1">
-                     <h3 data-lang-ja="Project 1 Title" data-lang-en="Project 1 Title">Project 1 Title</h3>
-                    <p data-lang-ja="Description of project 1." data-lang-en="Description of project 1.">Description of project 1.</p>
-                    <a href="project1.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                </div>
-                <div class="portfolio-item">
-                   <img src="project2.png" alt="Project 2">
-                      <h3 data-lang-ja="Project 2 Title" data-lang-en="Project 2 Title">Project 2 Title</h3>
-                    <p data-lang-ja="Description of project 2." data-lang-en="Description of project 2.">Description of project 2.</p>
-                    <a href="project2.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                </div>
                     <div class="portfolio-item">
-                         <h3 data-lang-ja="Example of Data Analysis" data-lang-en="Example of Data Analysis">Example of Data Analysis</h3>
-                     <p data-lang-ja="An example of a data analysis project using linear regression." data-lang-en="An example of a data analysis project using linear regression.">An example of a data analysis project using linear regression.</p>
-                    <p>\( y = \beta_0 + \beta_1 x + \epsilon \)</p>
-                       <a href="analysis_example.html"  data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                  </div>
+                        <img src="project1.png" alt="Project 1">
+                        <h3 data-lang-ja="Project 1 Title" data-lang-en="Project 1 Title">Project 1 Title</h3>
+                        <p data-lang-ja="Description of project 1." data-lang-en="Description of project 1.">Description of project 1.</p>
+                        <a href="project1.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="project2.png" alt="Project 2">
+                        <h3 data-lang-ja="Project 2 Title" data-lang-en="Project 2 Title">Project 2 Title</h3>
+                        <p data-lang-ja="Description of project 2." data-lang-en="Description of project 2.">Description of project 2.</p>
+                        <a href="project2.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3 data-lang-ja="Example of Data Analysis" data-lang-en="Example of Data Analysis">Example of Data Analysis</h3>
+                        <p data-lang-ja="An example of a data analysis project using linear regression." data-lang-en="An example of a data analysis project using linear regression.">An example of a data analysis project using linear regression.</p>
+                        <p>\( y = \beta_0 + \beta_1 x + \epsilon \)</p>
+                        <a href="analysis_example.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+                    </div>
                 </div>
             </div>
         </section>
         
         <section id="contact" class="section">
             <div class="container">
-                <h2 data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</h2>
-                 <p data-lang-ja="ご興味をお持ちいただけましたら、お気軽にご連絡ください。" data-lang-en="If you are interested, please feel free to contact me.">ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
-                 <p>email:data0science0acc@gmail.com</p>
+                 <h2 data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</h2>
+                <p data-lang-ja="ご興味をお持ちいただけましたら、お気軽にご連絡ください。" data-lang-en="If you are interested, please feel free to contact me.">ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
+                 <p>email:[あなたのメールアドレス]</p>
                 <!-- お問い合わせフォームやSNSへのリンクなど -->
             </div>
         </section>
@@ -97,7 +130,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Jumpei Uchida. All rights reserved.</p>
+            <p>&copy; 2024 [あなたの名前]. All rights reserved.</p>
         </div>
     </footer>
 
