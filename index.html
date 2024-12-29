@@ -11,41 +11,49 @@
 <body>
     <header>
         <div class="container">
-            <h1>[あなたの名前]</h1>
+             <h1>[あなたの名前]</h1>
             <nav>
-                <a href="#about">経歴</a>
-                <a href="#skills">スキル</a>
-                <a href="#portfolio">ポートフォリオ</a>
-                <a href="#contact">お問い合わせ</a>
+                <a href="#about" data-lang-ja="経歴" data-lang-en="About">経歴</a>
+                <a href="#skills" data-lang-ja="スキル" data-lang-en="Skills">スキル</a>
+                <a href="#portfolio" data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</a>
+                <a href="#contact" data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</a>
             </nav>
+            <div class="language-select">
+              <select id="language-switcher">
+                  <option value="ja">日本語</option>
+                  <option value="en">English</option>
+                </select>
+            </div>
         </div>
     </header>
     
     <main>
         <section id="about" class="section">
             <div class="container">
-                <h2>経歴</h2>
-                <p>データサイエンスに情熱を燃やす[あなたの名前]です。統計学、機械学習、データ可視化を駆使し、ビジネス課題の解決に取り組んでいます。</p>
-                <p>これまでの職務経験では、[具体的な職務経験を記述]などのプロジェクトに携わってきました。</p>
+                 <h2 data-lang-ja="経歴" data-lang-en="About">経歴</h2>
+                <p data-lang-ja="データサイエンスに情熱を燃やす[あなたの名前]です。統計学、機械学習、データ可視化を駆使し、ビジネス課題の解決に取り組んでいます。" 
+                   data-lang-en="I'm [Your Name], a passionate data scientist. I use statistics, machine learning, and data visualization to solve business challenges.">データサイエンスに情熱を燃やす[あなたの名前]です。統計学、機械学習、データ可視化を駆使し、ビジネス課題の解決に取り組んでいます。</p>
+                <p data-lang-ja="これまでの職務経験では、[具体的な職務経験を記述]などのプロジェクトに携わってきました。"
+                    data-lang-en="In my previous work experience, I have been involved in projects such as [Describe your specific work experience].">これまでの職務経験では、[具体的な職務経験を記述]などのプロジェクトに携わってきました。</p>
             </div>
         </section>
         
         <section id="skills" class="section">
             <div class="container">
-                <h2>スキル</h2>
+                <h2 data-lang-ja="スキル" data-lang-en="Skills">スキル</h2>
                 <ul class="skill-list">
-                    <li>Python</li>
-                    <li>R</li>
-                    <li>SQL</li>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Scikit-learn</li>
-                    <li>TensorFlow</li>
-                    <li>PyTorch</li>
-                    <li>データ可視化</li>
-                    <li>統計分析</li>
-                    <li>機械学習</li>
-                    <li>深層学習</li>
+                    <li data-lang-ja="Python" data-lang-en="Python">Python</li>
+                    <li data-lang-ja="R" data-lang-en="R">R</li>
+                    <li data-lang-ja="SQL" data-lang-en="SQL">SQL</li>
+                    <li data-lang-ja="Pandas" data-lang-en="Pandas">Pandas</li>
+                    <li data-lang-ja="NumPy" data-lang-en="NumPy">NumPy</li>
+                    <li data-lang-ja="Scikit-learn" data-lang-en="Scikit-learn">Scikit-learn</li>
+                    <li data-lang-ja="TensorFlow" data-lang-en="TensorFlow">TensorFlow</li>
+                    <li data-lang-ja="PyTorch" data-lang-en="PyTorch">PyTorch</li>
+                    <li data-lang-ja="データ可視化" data-lang-en="Data Visualization">データ可視化</li>
+                    <li data-lang-ja="統計分析" data-lang-en="Statistical Analysis">統計分析</li>
+                    <li data-lang-ja="機械学習" data-lang-en="Machine Learning">機械学習</li>
+                    <li data-lang-ja="深層学習" data-lang-en="Deep Learning">深層学習</li>
                      <!-- その他のスキル -->
                 </ul>
             </div>
@@ -53,25 +61,25 @@
 
         <section id="portfolio" class="section">
             <div class="container">
-                <h2>ポートフォリオ</h2>
+                 <h2 data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</h2>
                 <div class="portfolio-grid">
                   <div class="portfolio-item">
                     <img src="project1.png" alt="Project 1">
-                    <h3>Project 1 Title</h3>
-                    <p>Description of project 1.</p>
-                    <a href="project1.html">Details</a>
+                     <h3 data-lang-ja="Project 1 Title" data-lang-en="Project 1 Title">Project 1 Title</h3>
+                    <p data-lang-ja="Description of project 1." data-lang-en="Description of project 1.">Description of project 1.</p>
+                    <a href="project1.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
                 </div>
                 <div class="portfolio-item">
                    <img src="project2.png" alt="Project 2">
-                    <h3>Project 2 Title</h3>
-                    <p>Description of project 2.</p>
-                     <a href="project1.html">Details</a>
+                      <h3 data-lang-ja="Project 2 Title" data-lang-en="Project 2 Title">Project 2 Title</h3>
+                    <p data-lang-ja="Description of project 2." data-lang-en="Description of project 2.">Description of project 2.</p>
+                    <a href="project2.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
                 </div>
                     <div class="portfolio-item">
-                    <h3>Example of Data Analysis</h3>
-                    <p>An example of a data analysis project using linear regression.</p>
+                         <h3 data-lang-ja="Example of Data Analysis" data-lang-en="Example of Data Analysis">Example of Data Analysis</h3>
+                     <p data-lang-ja="An example of a data analysis project using linear regression." data-lang-en="An example of a data analysis project using linear regression.">An example of a data analysis project using linear regression.</p>
                     <p>\( y = \beta_0 + \beta_1 x + \epsilon \)</p>
-                      <a href="#">Details</a>
+                       <a href="analysis_example.html"  data-lang-ja="詳細" data-lang-en="Details">Details</a>
                   </div>
                 </div>
             </div>
@@ -79,8 +87,8 @@
         
         <section id="contact" class="section">
             <div class="container">
-                <h2>お問い合わせ</h2>
-                <p>ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
+                <h2 data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</h2>
+                 <p data-lang-ja="ご興味をお持ちいただけましたら、お気軽にご連絡ください。" data-lang-en="If you are interested, please feel free to contact me.">ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
                  <p>email:[あなたのメールアドレス]</p>
                 <!-- お問い合わせフォームやSNSへのリンクなど -->
             </div>
