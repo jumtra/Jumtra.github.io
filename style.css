@@ -6,7 +6,16 @@ body {
     line-height: 1.7;
     background-color: #f9f9f9;
 }
-
+pre {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.7;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  white-space: pre-wrap; /* 長いテキストを折り返す */
+}
 .container {
     width: 90%;
     max-width: 1200px;
@@ -116,15 +125,7 @@ main {
     background-color: #f0f0f0;
      border-radius: 8px;
 }
-.career-dtails pre{
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.7;
-  background-color: #f9f9f9;
-  white-space: pre-wrap; /* 長いテキストを折り返す */
-}
+
 .detail-button{
      background-color: #e0f7fa;
       padding: 8px 15px;
