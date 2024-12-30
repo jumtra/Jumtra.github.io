@@ -1,268 +1,213 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Scientist Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Scientist Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1 data-lang-ja="内田 純平" data-lang-en="Jumpei Uchida">内田 純平</h1>
-            <nav>
-                <a href="#about" data-lang-ja="経歴" data-lang-en="About">経歴</a>
-                <a href="#skills" data-lang-ja="スキル" data-lang-en="Skills">スキル</a>
-                <a href="#portfolio" data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</a>
-                <a href="#contact" data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</a>
-            </nav>
-            <div class="language-select">
-                <select id="language-switcher">
-                    <option value="ja">日本語</option>
-                    <option value="en">English</option>
-                </select>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <h1 datala-lang-ja="内田 純平" data-lang-en="Jumpei Uchida">内田 純平</h1>
+      <nav>
+        <a href="#about" data-lang-ja="経歴" data-lang-en="About">経歴</a>
+        <a href="#skills" data-lang-ja="スキル" data-lang-en="Skills">スキル</a>
+        <a href="#qualifications" data-lang-ja="資格" data-lang-en="Qualifications">資格</a>
+        <a href="#portfolio" data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</a>
+        <a href="#contact" data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</a>
+      </nav>
+      <div class="language-select">
+        <select id="language-switcher">
+          <option value="ja">日本語</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </div>
+  </header>
     
-    <main>
-        <section id="about" class="section">
-            <div class="container">
-                <h2 data-lang-ja="経歴" data-lang-en="About">経歴</h2>
-                <div class="about-summary">
-                    <h3 data-lang-ja="経歴サマリー" data-lang-en="Career Summary">経歴サマリー</h3>
-                    <p data-lang-ja="2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2 data-lang-ja="経歴" data-lang-en="About">経歴</h2>
+        <div class="about-summary">
+          <h3 data-lang-ja="経歴サマリー" data-lang-en="Career Summary">経歴サマリー</h3>
+          <p data-lang-ja="2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。
 物流業界では食品配送最適化に取り組み、物量予測に基づいた配送最適化アプリ開発と効果分析で物流コスト削減に貢献。社内技術検証では、LLM登場初期に日本語OSS LLM開発を主導し、独自の日本語LLM構築を通じて自然言語処理の知見を蓄積。エネルギー業界ではガス会社向けSaaSにてガス残量予測モデルを開発し、配送効率化を支援。人材業界では、LLMを用いた求人票自動生成システムをPoCからリリースまで主導。現在は、Material Informaticsを推進するSaaSプロダクトの開発にて、システムアーキテクチャ構想や技術選定を担っている。
 " 
-                   data-lang-en="I joined Brainpad in April 2022 as a data scientist. I have worked on projects in diverse industries including logistics, human resources, and materials.
+          data-lang-en="I joined Brainpad in April 2022 as a data scientist. I have worked on projects in diverse industries including logistics, human resources, and materials.
 In the logistics industry, I worked on food delivery optimization and contributed to logistics cost reduction by developing delivery optimization applications based on material volume forecasts and analyzing their effectiveness. In the area of in-house technical verification, I led the development of Japanese OSS LLM in the early days of LLM and accumulated knowledge of natural language processing through the construction of own Japanese LLM. In the energy industry, I developed a gas residual volume forecasting model in SaaS for gas companies to support more efficient delivery. In the human resource industry, I led the development of an automatic job posting generation system using LLM from PoC to release. Currently, I am in charge of system architecture concept and technology selection for the development of SaaS products that promote Material Informatics.">2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。
 物流業界では食品配送最適化に取り組み、物量予測に基づいた配送最適化アプリ開発と効果分析で物流コスト削減に貢献。社内技術検証では、LLM登場初期に日本語OSS LLM開発を主導し、独自の日本語LLM構築を通じて自然言語処理の知見を蓄積。エネルギー業界ではガス会社向けSaaSにてガス残量予測モデルを開発し、配送効率化を支援。人材業界では、LLMを用いた求人票自動生成システムをPoCからリリースまで主導。現在は、Material Informaticsを推進するSaaSプロダクトの開発にて、システムアーキテクチャ構想や技術選定を担っている。
-                    </p>
-                </div>
-                <div class="career-history">
-                    <h3 data-lang-ja="職務経歴" data-lang-en="Work Experience">職務経歴</h3>
-                    <ul class="career-list">
-                       
-                        <li class="career-item">
-                            <h4 data-lang-ja="東京都市大学大学院　総合理工学研究科 情報専攻" data-lang-en="Department of Information Science and Technology, Graduate School of Science and Engineering, Tokyo City University">東京都市大学大学院　総合理工学研究科 情報専攻</h4>
-                            <p class="career-period" data-lang-ja="2020/4~2022/3" data-lang-en="2020/4~2022/3">2020/4~2022/3</p>
-                            <p data-lang-ja="私は、組み合わせ最適化問題のアルゴリズム開発や、金融取引AIの安定化、不完全情報ゲームAIの賢いプレイ実現など、幅広い分野でAI技術を活用した研究に取り組んだ。特に、人間の思考に基づいたアルゴリズム開発や、変動の大きい状況への対応、不完全な情報下での意思決定に焦点を当てました。" data-lang-en="I worked on a wide range of AI technology applications, including algorithm development for combinatorial optimization problems, stabilization of financial trading AI, and realization of smart play in incomplete information game AI. In particular, he focused on developing algorithms based on human thinking, dealing with highly volatile situations, and decision making under imperfect information">私は、組み合わせ最適化問題のアルゴリズム開発や、金融取引AIの安定化、不完全情報ゲームAIの賢いプレイ実現など、幅広い分野でAI技術を活用した研究に取り組んだ。特に、人間の思考に基づいたアルゴリズム開発や、変動の大きい状況への対応、不完全な情報下での意思決定に焦点を当てました。</p>
-                            <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
-                            <div class="career-details">
-                                <pre data-lang-ja="
+          </p>
+        </div>
+        <div class="career-history">
+          <h3 data-lang-ja="職務経歴" data-lang-en="Work Experience">職務経歴</h3>
+          <ul class="career-list">
+            
+            <li class="career-item">
+              <h4 data-lang-ja="東京都市大学大学院　総合理工学研究科 情報専攻" data-lang-en="Department of Information Science and Technology, Graduate School of Science and Engineering, Tokyo City University">東京都市大学大学院　総合理工学研究科 情報専攻</h4>
+              <p class="career-period" data-lang-ja="2020/4~2022/3" data-lang-en="2020/4~2022/3">2020/4~2022/3</p>
+              <p data-lang-ja="私は、組み合わせ最適化問題のアルゴリズム開発や、金融取引AIの安定化、不完全情報ゲームAIの賢いプレイ実現など、幅広い分野でAI技術を活用した研究に取り組んだ。特に、人間の思考に基づいたアルゴリズム開発や、変動の大きい状況への対応、不完全な情報下での意思決定に焦点を当てました。" data-lang-en="I worked on a wide range of AI technology applications, including algorithm development for combinatorial optimization problems, stabilization of financial trading AI, and realization of smart play in incomplete information game AI. In particular, he focused on developing algorithms based on human thinking, dealing with highly volatile situations, and decision making under imperfect information">私は、組み合わせ最適化問題のアルゴリズム開発や、金融取引AIの安定化、不完全情報ゲームAIの賢いプレイ実現など、幅広い分野でAI技術を活用した研究に取り組んだ。特に、人間の思考に基づいたアルゴリズム開発や、変動の大きい状況への対応、不完全な情報下での意思決定に焦点を当てました。</p>
+              <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
+              <div class="career-details">
+                <pre data-lang-ja="
 下記の3つの研究に従事
 1.組み合わせ最適化問題に関する研究:
-概要: 工業や経済など、様々な分野で発生する「最も効率的な組み合わせを見つける」という問題を解決するための、新しいアルゴリズムを開発しました。 
+概要: 工業や経済など、様々な分野で発生する「最も効率的な組み合わせを見つける」という問題を解決するための、新しいアルゴリズムを開発しました。
 ポイント: 人の基本的な考え方を基に、複雑な組み合わせ問題を解く、新しいアプローチを考案した点が特徴です。
 
 2.金融分野における外国為替取引AIに関する研究:
-概要: 外国為替取引において、相場の急な変動にも対応できるAIの開発を行いました。 
+概要: 外国為替取引において、相場の急な変動にも対応できるAIの開発を行いました。
 ポイント: 従来のAIでは難しかった、相場が大きく動く場面でも安定した取引ができるよう、既存アルゴリズムを改良した点が特徴です。
 
 3.ゲーム分野における多人数不完全情報ゲームAIに関する研究:
-概要: 大貧民というトランプゲームで、状況に応じて「忖度」したプレイができるAIを開発しています。 
-ポイント: 他のプレイヤーの情報を一部しか知らない状況でも、賢く振る舞えるAIモデルの構築を目指した点が特徴です。" 
+概要: 大貧民というトランプゲームで、状況に応じて「忖度」したプレイができるAIを開発しています。
+ポイント: 他のプレイヤーの情報を一部しか知らない状況でも、賢く振る舞えるAIモデルの構築を目指した点が特徴です。"
 data-lang-en="Engaged with the following three research projects
 
 1.research on combinatorial optimization problems.
-Summary: I developed a new algorithm to solve the problem of “finding the most efficient combination” which occurs in various fields such as industry and economy. 
+Summary: I developed a new algorithm to solve the problem of “finding the most efficient combination” which occurs in various fields such as industry and economy.
 Key point: We devised a new approach to solving complex combinatorial problems based on basic human concepts.
 
 2.research on AI for foreign exchange trading in the financial sector
-Summary: We developed an AI for foreign exchange trading that can respond to sudden fluctuations in market prices. 
+Summary: We developed an AI for foreign exchange trading that can respond to sudden fluctuations in market prices.
 Key point: We improved an existing algorithm to enable stable trading even during large market fluctuations, which has been difficult for conventional AI.
 
 3.research on multi-player incomplete information game AI in the field of video games:
 Summary: We are developing an AI that can make “disciplined” plays depending on the situation in a card game called “Daibonin”.
-Key point: We aimed to build an AI model that can behave intelligently even in situations where it only has partial knowledge of other players' information.">                 
+Key point: We aimed to build an AI model that can behave intelligently even in situations where it only has partial knowledge of other players' information.">      
 下記の3つの研究に従事
 
 1.組み合わせ最適化問題に関する研究:
-概要: 工業や経済など、様々な分野で発生する「最も効率的な組み合わせを見つける」という問題を解決するための、新しいアルゴリズムを開発しました。 
+概要: 工業や経済など、様々な分野で発生する「最も効率的な組み合わせを見つける」という問題を解決するための、新しいアルゴリズムを開発しました。
 ポイント: 人の基本的な考え方を基に、複雑な組み合わせ問題を解く、新しいアプローチを考案した点が特徴です。
 
 2.金融分野における外国為替取引AIに関する研究:
-概要: 外国為替取引において、相場の急な変動にも対応できるAIの開発を行いました。 
+概要: 外国為替取引において、相場の急な変動にも対応できるAIの開発を行いました。
 ポイント: 従来のAIでは難しかった、相場が大きく動く場面でも安定した取引ができるよう、既存アルゴリズムを改良した点が特徴です。
 
 3.ゲーム分野における多人数不完全情報ゲームAIに関する研究:
-概要: 大貧民というトランプゲームで、状況に応じて「忖度」したプレイができるAIを開発しています。 
+概要: 大貧民というトランプゲームで、状況に応じて「忖度」したプレイができるAIを開発しています。
 ポイント: 他のプレイヤーの情報を一部しか知らない状況でも、賢く振る舞えるAIモデルの構築を目指した点が特徴です。
-                                </pre>
-                            </div>
-                        </li>
-                          <li class="career-item">
-                            <h4 data-lang-ja="株式会社ブレインパッド" data-lang-en="BrainPad Inc.">株式会社ブレインパッド</h4>
-                            <p class="career-period" data-lang-ja="2022/4~" data-lang-en="2022/4~">2022/4~</p>
-                            <p data-lang-ja="2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。 物流業界では食品配送最適化に取り組み、物量予測に基づいた配送最適化アプリ開発と効果分析で物流コスト削減に貢献。社内技術検証では、LLM登場初期に日本語OSS LLM開発を主導し、独自の日本語LLM構築を通じて自然言語処理の知見を蓄積。エネルギー業界ではガス会社向けSaaSにてガス残量予測モデルを開発し、配送効率化を支援。人材業界では、LLMを用いた求人票自動生成システムをPoCからリリースまで主導。現在は、Material Informaticsを推進するSaaSプロダクトの開発にて、システムアーキテクチャ構想や技術選定を担っている。" 
-                                data-lang-en="I joined Brainpad in April 2022 as a data scientist. I have worked on projects in diverse industries including logistics, human resources, and materials.
+                </pre>
+              </div>
+            </li>
+            <li class="career-item">
+              <h4 data-lang-ja="株式会社ブレインパッド" data-lang-en="BrainPad Inc.">株式会社ブレインパッド</h4>
+              <p class="career-period" data-lang-ja="2022/4~" data-lang-en="2022/4~">2022/4~</p>
+              <p data-lang-ja="2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。 物流業界では食品配送最適化に取り組み、物量予測に基づいた配送最適化アプリ開発と効果分析で物流コスト削減に貢献。社内技術検証では、LLM登場初期に日本語OSS LLM開発を主導し、独自の日本語LLM構築を通じて自然言語処理の知見を蓄積。エネルギー業界ではガス会社向けSaaSにてガス残量予測モデルを開発し、配送効率化を支援。人材業界では、LLMを用いた求人票自動生成システムをPoCからリリースまで主導。現在は、Material Informaticsを推進するSaaSプロダクトの開発にて、システムアーキテクチャ構想や技術選定を担っている。"
+              data-lang-en="I joined Brainpad in April 2022 as a data scientist. I have worked on projects in diverse industries including logistics, human resources, and materials.
 In the logistics industry, I worked on food delivery optimization and contributed to logistics cost reduction by developing delivery optimization applications based on material volume forecasts and analyzing their effectiveness. In the area of in-house technical verification, I led the development of Japanese OSS LLM in the early days of LLM and accumulated knowledge of natural language processing through the construction of own Japanese LLM. In the energy industry, I developed a gas residual volume forecasting model in SaaS for gas companies to support more efficient delivery. In the human resource industry, I led the development of an automatic job posting generation system using LLM from PoC to release. Currently, I am in charge of system architecture concept and technology selection for the development of SaaS products that promote Material Informatics.">2022年4月、ブレインパッドにデータサイエンティストとして入社。物流、人材、素材等、多様な業種でプロジェクトに従事。 物流業界では食品配送最適化に取り組み、物量予測に基づいた配送最適化アプリ開発と効果分析で物流コスト削減に貢献。社内技術検証では、LLM登場初期に日本語OSS LLM開発を主導し、独自の日本語LLM構築を通じて自然言語処理の知見を蓄積。エネルギー業界ではガス会社向けSaaSにてガス残量予測モデルを開発し、配送効率化を支援。人材業界では、LLMを用いた求人票自動生成システムをPoCからリリースまで主導。現在は、Material Informaticsを推進するSaaSプロダクトの開発にて、システムアーキテクチャ構想や技術選定を担っている。
-                            
-                            </p>
-                            <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
-                            <div class="career-details">
-                            <pre data-lang-ja="
-・ 食品配送センター向け配送最適化アプリケーション検証
-    ・ 物量予測に基づいた配送最適化アプリケーションを開発・検証し、食品関係の配送センターへの適用可能性を評価。
-    ・   データ分析を通じて物流チェーンの主要センターにおけるコスト削減効果を定量的に分析し、データドリブンな改善施策を立案・実行。
-
-・   日本語OSS LLM開発
-    ・   日本語対応のOSS LLMが未成熟な時期に、社内技術検証として日本語ファインチューニングを実施し、独自の日本語LLM構築に貢献。
-    ・   LLMの基礎研究から実用化に向けた技術検証までを主導し、高度な自然言語処理技術の知見を蓄積。
-
-・   ガス会社向けSaaSアプリケーション開発
-    ・   ガス残量予測モデルの開発：
-        ・   ガスボンベの残量を高精度に予測するモデルを構築。
-        ・   予測モデルの精度向上に貢献し、配送効率化を支援。
-
-・  人材会社向けLLM活用求人票自動生成システム開発
-    ・   PoCからリリースまで、LLMを活用した求人票自動生成システムの開発を主導。
-        ・   LLMの技術検証、要件定義、実装、クライアントコミュニケーションまで、システム全般に責任を持ち、プロジェクトを成功に導く。
-
-・   Material Informatics推進SaaSアプリケーション開発
-    ・   LLMやデータサイエンスの知見を活かし、Material Informaticsを推進するSaaSアプリケーション開発に貢献。
-        ・   システムアーキテクチャの構想、技術選定、開発プロセスの効率化・標準化、新規プロセス導入など、多岐にわたる業務を担当。
-        ・   技術的なリーダーシップを発揮し、プロジェクトの推進とチームの成長を牽引。"
-                                data-lang-en="
-・Verification of delivery optimization application for food distribution centers
-    ・Developed and verified a delivery optimization application based on quantity forecasting, and evaluated its applicability to food distribution centers.
-    ・Quantitatively analyze cost reduction effects at major centers in the logistics chain through data analysis, and formulate and implement data-driven improvement measures.
-
-・Japanese OSS LLM development
-    ・At a time when Japanese-language OSS LLM was still immature, we conducted Japanese-language fine tuning as an in-house technical verification and contributed to the construction of our own Japanese-language LLM.
-    ・I led the process from basic research of LLM to technical verification for practical use, accumulating knowledge of advanced natural language processing technology.
-
-・Development of SaaS application for gas companies
-    ・Developed a model for predicting the amount of gas remaining:
-        ・Developed a model to accurately predict the amount of gas remaining in gas cylinders.
-        ・Contributed to improving the accuracy of the forecasting model and assisted in improving delivery efficiency.
-
-・Development of an automatic job posting generation system using LLM for a human resource company
-    ・Led the development of an automatic job posting generation system utilizing LLM from PoC to release.
-        ・I was responsible for all aspects of the system, from technical validation of LLM, requirement definition, implementation, and client communication, leading the project to success.
-
-・Developed a SaaS application promoting Material Informatics.
-    ・Contributed to the development of a SaaS application to promote Material Informatics by leveraging his knowledge of LLM and data science.
-        ・I was responsible for a wide range of tasks including system architecture conception, technology selection, development process streamlining and standardization, and new process implementation.
-        ・I have also been involved in the development and implementation of new processes and technologies.
-                                "
-                                >
-・ 食品配送センター向け配送最適化アプリケーション検証
-    ・ 物量予測に基づいた配送最適化アプリケーションを開発・検証し、食品関係の配送センターへの適用可能性を評価。
-    ・   データ分析を通じて物流チェーンの主要センターにおけるコスト削減効果を定量的に分析し、データドリブンな改善施策を立案・実行。
-
-・   日本語OSS LLM開発
-    ・   日本語対応のOSS LLMが未成熟な時期に、社内技術検証として日本語ファインチューニングを実施し、独自の日本語LLM構築に貢献。
-    ・   LLMの基礎研究から実用化に向けた技術検証までを主導し、高度な自然言語処理技術の知見を蓄積。
-
-・   ガス会社向けSaaSアプリケーション開発
-    ・   ガス残量予測モデルの開発：
-        ・   ガスボンベの残量を高精度に予測するモデルを構築。
-        ・   予測モデルの精度向上に貢献し、配送効率化を支援。
-
-・  人材会社向けLLM活用求人票自動生成システム開発
-    ・   PoCからリリースまで、LLMを活用した求人票自動生成システムの開発を主導。
-        ・   LLMの技術検証、要件定義、実装、クライアントコミュニケーションまで、システム全般に責任を持ち、プロジェクトを成功に導く。
-
-・   Material Informatics推進SaaSアプリケーション開発
-    ・   LLMやデータサイエンスの知見を活かし、Material Informaticsを推進するSaaSアプリケーション開発に貢献。
-        ・   システムアーキテクチャの構想、技術選定、開発プロセスの効率化・標準化、新規プロセス導入など、多岐にわたる業務を担当。
-        ・   技術的なリーダーシップを発揮し、プロジェクトの推進とチームの成長を牽引。"
-                            
-                            </pre>
-                            </div>
-                        </li>
-                       
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 data-lang-ja="スキル" data-lang-en="Skills">スキル</h2>
-                <ul class="skill-list">
-                     <li data-lang-ja="Python" data-lang-en="Python">Python</li>
-                    <li data-lang-ja="Terraform" data-lang-en="Terraform">Terraform</li>
-                    <li data-lang-ja="MySQL" data-lang-en="MySQL">MySQL</li>
-                    <li data-lang-ja="Google Cloud" data-lang-en="Google Cloud">Google Cloud</li>
-                    <li data-lang-ja="AWS" data-lang-en="AWS">AWS</li>
-                    <li data-lang-ja="LLM" data-lang-en="LLM">LLM</li>
-                    <li data-lang-ja="MlOps" data-lang-en="MlOps">MlOps</li>
-                    <li data-lang-ja="システム構築" data-lang-en="system architecture">システム構築</li>
-                    <li data-lang-ja="React.js" data-lang-en="React.js">React.js</li>
-                    <li data-lang-ja="Django" data-lang-en="Django">Django</li>
-                    <li data-lang-ja="html" data-lang-en="html">html</li>
-                    <li data-lang-ja="css" data-lang-en="css">css</li>
-                    <li data-lang-ja="データ可視化" data-lang-en="Data Visualization">データ可視化</li>
-                    <li data-lang-ja="統計分析" data-lang-en="Statistical Analysis">統計分析</li>
-                    <li data-lang-ja="機械学習" data-lang-en="Machine Learning">機械学習</li>
-                    <li data-lang-ja="深層学習" data-lang-en="Deep Learning">深層学習</li>
-                    <li data-lang-ja="数理最適化" data-lang-en="mathematical optimization">数理最適化</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="portfolio" class="section">
-            <div class="container">
-                <h2 data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</h2>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <img src="project1.png" alt="Project 1">
-                        <h3 data-lang-ja="Project 1 Title" data-lang-en="Project 1 Title">Project 1 Title</h3>
-                        <p data-lang-ja="Description of project 1." data-lang-en="Description of project 1.">Description of project 1.</p>
-                        <a href="project1.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="project2.png" alt="Project 2">
-                        <h3 data-lang-ja="Project 2 Title" data-lang-en="Project 2 Title">Project 2 Title</h3>
-                        <p data-lang-ja="Description of project 2." data-lang-en="Description of project 2.">Description of project 2.</p>
-                        <a href="project2.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                    </div>
-                    <div class="portfolio-item">
-                        <h3 data-lang-ja="Example of Data Analysis" data-lang-en="Example of Data Analysis">Example of Data Analysis</h3>
-                        <p data-lang-ja="An example of a data analysis project using linear regression." data-lang-en="An example of a data analysis project using linear regression.">An example of a data analysis project using linear regression.</p>
-                        <p>\( y = \beta_0 + \beta_1 x + \epsilon \)</p>
-                        <a href="analysis_example.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contact" class="section">
-          <div class="container">
-            <h2 data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</h2>
-                <p data-lang-ja="ご興味をお持ちいただけましたら、お気軽にご連絡ください。" data-lang-en="If you are interested, please feel free to contact me.">ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
-                <p>email: data0science0acc@gmail.com</p>
-
-                <!-- SNSへのリンク -->
-                <div class="social-links">
-                  <a href="https://www.linkedin.com/in/jumpei-uchida-480b55205/" target="_blank" rel="noopener" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a href="https://github.com/jumtra" target="_blank" rel="noopener" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://twitter.com/your_twitter_username" target="_blank" rel="noopener" aria-label="X (Twitter)">
-                    <i class="fab fa-twitter"></i> 
-                  </a>
-                  <a href="https://www.facebook.com/your_facebook_username" target="_blank" rel="noopener" aria-label="Facebook">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </div>
-          </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Jumpei Uchida. All rights reserved.</p>
+            
+              </p>
+              <button class="detail-button" data-lang-ja="詳細を表示" data-lang-en="Show Details">詳細を表示</button>
+              <div class="career-details">
+              <p data-lang-ja="[職務内容2の詳細を記述します]"
+                data-lang-en="[Describe the details of job content 2]">
+                [職務内容2の詳細を記述します]</p>
+              </div>
+            </li>
+            
+          </ul>
         </div>
-    </footer>
+      </div>
+    </section>
+    
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 data-lang-ja="スキル" data-lang-en="Skills">スキル</h2>
+        <ul class="skill-list">
+          <li data-lang-ja="Python" data-lang-en="Python">Python</li>
+          <li data-lang-ja="Terraform" data-lang-en="Terraform">Terraform</li>
+          <li data-lang-ja="MySQL" data-lang-en="MySQL">MySQL</li>
+          <li data-lang-ja="Google Cloud" data-lang-en="Google Cloud">Google Cloud</li>
+          <li data-lang-ja="AWS" data-lang-en="AWS">AWS</li>
+          <li data-lang-ja="LLM" data-lang-en="LLM">LLM</li>
+          <li data-lang-ja="MlOps" data-lang-en="MlOps">MlOps</li>
+          <li data-lang-ja="システム構築" data-lang-en="system architecture">システム構築</li>
+          <li data-lang-ja="React.js" data-lang-en="React.js">React.js</li>
+          <li data-lang-ja="Django" data-lang-en="Django">Django</li>
+          <li data-lang-ja="html" data-lang-en="html">html</li>
+          <li data-lang-ja="css" data-lang-en="css">css</li>
+          <li data-lang-ja="データ可視化" data-lang-en="Data Visualization">データ可視化</li>
+          <li data-lang-ja="統計分析" data-lang-en="Statistical Analysis">統計分析</li>
+          <li data-lang-ja="機械学習" data-lang-en="Machine Learning">機械学習</li>
+          <li data-lang-ja="深層学習" data-lang-en="Deep Learning">深層学習</li>
+          <li data-lang-ja="数理最適化" data-lang-en="mathematical optimization">数理最適化</li>
+        </ul>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="qualifications" class="section">
+      <div class="container">
+        <h2 data-lang-ja="資格" data-lang-en="Qualifications">資格</h2>
+        <ul class="qualification-list">
+            <li data-lang-ja="G検定" data-lang-en="G Certificate">G検定</li>
+            <li data-lang-ja="基本情報技術者" data-lang-en="Fundamental Information Technology Engineer">基本情報技術者</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 data-lang-ja="ポートフォリオ" data-lang-en="Portfolio">ポートフォリオ</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="project1.png" alt="Project 1">
+            <h3 data-lang-ja="Project 1 Title" data-lang-en="Project 1 Title">Project 1 Title</h3>
+            <p data-lang-ja="Description of project 1." data-lang-en="Description of project 1.">Description of project 1.</p>
+            <a href="project1.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+          </div>
+          <div class="portfolio-item">
+            <img src="project2.png" alt="Project 2">
+            <h3 data-lang-ja="Project 2 Title" data-lang-en="Project 2 Title">Project 2 Title</h3>
+            <p data-lang-ja="Description of project 2." data-lang-en="Description of project 2.">Description of project 2.</p>
+            <a href="project2.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+          </div>
+          <div class="portfolio-item">
+            <h3 data-lang-ja="Example of Data Analysis" data-lang-en="Example of Data Analysis">Example of Data Analysis</h3>
+            <p data-lang-ja="An example of a data analysis project using linear regression." data-lang-en="An example of a data analysis project using linear regression.">An example of a data analysis project using linear regression.</p>
+            <p>\( y = \beta_0 + \beta_1 x + \epsilon \)</p>
+            <a href="analysis_example.html" data-lang-ja="詳細" data-lang-en="Details">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+    <div class="container">
+      <h2 data-lang-ja="お問い合わせ" data-lang-en="Contact">お問い合わせ</h2>
+        <p data-lang-ja="ご興味をお持ちいただけましたら、お気軽にご連絡ください。" data-lang-en="If you are interested, please feel free to contact me.">ご興味をお持ちいただけましたら、お気軽にご連絡ください。</p>
+        <p>email: data0science0acc@gmail.com</p>
+
+        <!-- SNSへのリンク -->
+        <div class="social-links">
+        <a href="https://www.linkedin.com/in/jumpei-uchida-480b55205/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/jumtra" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/your_twitter_username" target="_blank" rel="noopener" aria-label="X (Twitter)">
+          <i class="fab fa-twitter"></i> 
+        </a>
+        <a href="https://www.facebook.com/your_facebook_username" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        </div>
+    </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Jumpei Uchida. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
