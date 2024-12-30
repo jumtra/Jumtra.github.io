@@ -70,6 +70,20 @@ In the logistics industry, I worked on food delivery optimization and contribute
     概要: 大貧民というトランプゲームで、状況に応じて「忖度」したプレイができるAIを開発しています。
     ポイント: 他のプレイヤーの情報を一部しか知らない状況でも、賢く振る舞えるAIモデルの構築を目指した点が特徴です。
 　　　　　　　　　　　　　　　　　　　　　</p>
+                                <script>
+  function updateText() {
+      const element = document.getElementById('lang-text');
+      const lang = document.documentElement.lang; // HTMLのlang属性を取得
+      const text = element.getAttribute('data-lang-' + lang);
+      element.innerHTML = text; // innerHTMLを使用してHTMLを挿入
+  }
+  
+    // 初回実行
+  updateText();
+
+  // ブラウザの言語設定が変わった時に実行
+  window.addEventListener('languagechange', updateText);
+                                </script>
                             </div>
                         </li>
                           <li class="career-item">
