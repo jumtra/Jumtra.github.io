@@ -208,7 +208,38 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+.social-links {
+  display: flex;
+  justify-content: flex-start; /* SNSアイコンを左寄せにする */
+  align-items: center;
+  margin-top: 10px; /* 必要に応じて調整 */
+}
 
+.social-links a {
+  display: inline-flex;
+  justify-content: center; /* アイコンを中央寄せにする */
+  align-items: center;
+  width: 35px; /* アイコンのサイズを調整 */
+  height: 35px; /* アイコンのサイズを調整 */
+  margin-right: 10px; /* アイコン間のスペースを調整 */
+  color: #333; /* アイコンの色 */
+  background-color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease; /* ホバー時のアニメーション */
+  border: 1px solid #ddd; /* アイコンの枠線 */
+}
+
+.social-links a:hover {
+  color: #fff; /* ホバー時のアイコンの色 */
+  background-color: #333; /* ホバー時の背景色 */
+  transform: translateY(-2px); /* ホバー時に少し上に移動 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* ホバー時に影を付ける */
+}
+
+.social-links a i {
+  font-size: 18px; /* アイコンのサイズを調整 */
+}
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     header .container {
