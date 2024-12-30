@@ -238,7 +238,7 @@ footer {
 }
 
 .social-links a i {
-  font-size: 18px; /* アイコンのサイズを調整 */
+  font-size: 30px; /* アイコンのサイズを調整 */
 }
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
